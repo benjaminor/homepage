@@ -1,3 +1,26 @@
-baseURL = "http://example.org/"
+baseURL = "https://orthen.net"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "BO | HOME"
+theme = "beautifulhugo"
+
+# pygments
+pygmentsStyle = "trac"
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+
+[Author]
+  name = "Benjamin Orthen"
+  website = "orthen.net"
+  email = "benjamin@orthen.net"
+  github = "benjaminor"
+
+[[menu.main]]
+	name = "Posts"
+	url = "posts"
+	weight = 1
+
+[[menu.main]]
+	name = "PGP Key"
+	url = "/public_pgp_orthen.asc"
+	weight = 2
