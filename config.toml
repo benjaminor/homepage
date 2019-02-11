@@ -3,6 +3,8 @@ languageCode = "en-us"
 title = "BO | HOME"
 theme = "beautifulhugo"
 
+defaultContentLanguage = "en"
+
 # pygments
 pygmentsStyle = "trac"
 pygmentsUseClasses = true
@@ -12,8 +14,8 @@ pygmentsCodefencesGuessSyntax = true
 [Author]
   name = "Benjamin Orthen"
   website = "orthen.net"
-  email = "benjamin@orthen.net"
-  github = "benjaminor"
+  # email = "benjamin@orthen.net"
+  # github = "benjaminor"
 
 [[menu.main]]
 	name = "Posts"
@@ -21,6 +23,11 @@ pygmentsCodefencesGuessSyntax = true
 	weight = 1
 
 [[menu.main]]
-	name = "PGP Key"
-	url = "/public_pgp_orthen.asc"
+	name = "Contact"
+	url = "contact"
 	weight = 2
+
+[[menu.main]]
+	name = "Nextcloud"
+	url = "https://nextcloud.orthen.net"
+	weight=3
