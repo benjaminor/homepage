@@ -25,12 +25,12 @@ defaultContentLanguage = "en"
 [params]
   author = "Benjamin Orthen"
   authorlocation = "Munich, Germany"
-  # authorwebsite = "http://orthen.net"
   cover = "images/its_me.jpg"
   # description = "Whatever the mind of man can conceive and believe, it can achieve."
-  githubName = "benjaminor"
+  # githubName = "benjaminor"
   hideHUGOSupport = false
   hjsStyle = "default"
+  email = "benjamin@orthen.net"
 
 [[menu.main]]
 	name = "Posts"
