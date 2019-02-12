@@ -1,33 +1,53 @@
-baseURL = "https://orthen.net"
-languageCode = "en-us"
-title = "BO | HOME"
-theme = "beautifulhugo"
+baseurl = "https://orthen.net"
+
+copyright = "All rights reserved - 2019"
+languageCode = "en-US"
+title = "Benjamin Orthen | HOME"
+theme = "casper"
+canonifyurls = true
+paginate = 5
 
 defaultContentLanguage = "en"
 
 # pygments
-pygmentsStyle = "trac"
-pygmentsUseClasses = true
-pygmentsCodeFences = true
-pygmentsCodefencesGuessSyntax = true
+# pygmentsStyle = "trac"
+# pygmentsUseClasses = true
+# pygmentsCodeFences = true
+# pygmentsCodefencesGuessSyntax = true
 
-[Author]
-  name = "Benjamin Orthen"
-  website = "orthen.net"
+# [Author]
+#   name = "Benjamin Orthen"
+#   website = "orthen.net"
   # email = "benjamin@orthen.net"
   # github = "benjaminor"
 
+
+[params]
+  author = "Benjamin Orthen"
+  authorlocation = "Munich, Germany"
+  # authorwebsite = "http://orthen.net"
+  cover = "images/its_me.jpg"
+  # description = "Whatever the mind of man can conceive and believe, it can achieve."
+  githubName = "benjaminor"
+  hideHUGOSupport = false
+  hjsStyle = "default"
+
 [[menu.main]]
 	name = "Posts"
-	url = "posts"
+	url = "/post"
 	weight = 1
 
 [[menu.main]]
 	name = "Contact"
-	url = "contact"
+	url = "/post/contact"
 	weight = 2
 
 [[menu.main]]
 	name = "Nextcloud"
 	url = "https://nextcloud.orthen.net"
-	weight=3
+	weight= 3
+
+[sitemap]
+  ChangeFreq = ""
+  Filename = "sitemap.xml"
+  Priority = "-1"
