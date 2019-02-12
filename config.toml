@@ -2,12 +2,15 @@ baseurl = "https://orthen.net"
 
 copyright = "All rights reserved - 2019"
 languageCode = "en-US"
+author = "Benjamin Orthen"
 title = "Benjamin Orthen | HOME"
-theme = "casper"
+theme = "hugo-goa"
 canonifyurls = true
 paginate = 5
 
 defaultContentLanguage = "en"
+
+enableRobotsTXT = true
 
 # pygments
 # pygmentsStyle = "trac"
@@ -24,23 +27,39 @@ defaultContentLanguage = "en"
 
 [params]
   author = "Benjamin Orthen"
-  authorlocation = "Munich, Germany"
-  cover = "images/its_me.jpg"
+  # authorlocation = "Munich, Germany"
+  authorimage = "its_me.jpg"
   # description = "Whatever the mind of man can conceive and believe, it can achieve."
   # githubName = "benjaminor"
-  hideHUGOSupport = false
-  hjsStyle = "default"
-  email = "benjamin@orthen.net"
+  intro = ""
+  description = "Contact: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;benjamin (at) orthen.net<br/><br/> PGP-Key:	<a href=\"public_pgp_orthen.asc\">4D 1F C2 ED 78 57 DB 13</a>"
+  dateformat = "02-Jan-2006"
+
+## Site Meta Settings
+[params.meta]
+description = "Personal homepage"
+keywords = "homepage, personal"
+
+## Social Accounts
+[params.social]
+email = "benjamin@orthen.net"
+
+## Extras
+[params.extra]
+copyright = "© 2019. Benjamin Orthen. All Rights Reservered."
+poweredby = true
+hightlightjs = true
+rss = true
 
 [[menu.main]]
 	name = "Posts"
 	url = "/post"
 	weight = 1
 
-[[menu.main]]
-	name = "Contact"
-	url = "/post/contact"
-	weight = 2
+# [[menu.main]]
+#	name = "Contact"
+#	url = "/post/contact"
+#	weight = 2
 
 [[menu.main]]
 	name = "Nextcloud"

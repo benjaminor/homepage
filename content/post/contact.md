@@ -1,7 +1,7 @@
 ---
 title: "Contact me"
 date: 2019-02-11T15:07:15+01:00
-draft: false
+draft: true
 ---
 
 #### My contact information
