@@ -1,5 +1,8 @@
 # My homepage.
 
+[![Build Status](https://travis-ci.org/benjaminor/homepage.svg?branch=master)](https://travis-ci.org/benjaminor/homepage)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 ## Introduction
 This repository contains the source code for my homepage, https://orthen.net.
 
