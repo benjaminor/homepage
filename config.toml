@@ -21,8 +21,8 @@ enableRobotsTXT = true
 # [Author]
 #   name = "Benjamin Orthen"
 #   website = "orthen.net"
-  # email = "benjamin@orthen.net"
-  # github = "benjaminor"
+#   email = "benjamin@orthen.net"
+#   github = "benjaminor"
 
 
 [params]
@@ -32,8 +32,13 @@ enableRobotsTXT = true
   # description = "Whatever the mind of man can conceive and believe, it can achieve."
   # githubName = "benjaminor"
   intro = ""
-  description = "Contact: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;benjamin (at) orthen.net<br/><br/> PGP-Key:	<a href=\"public_pgp_orthen.asc\">4D 1F C2 ED 78 57 DB 13</a>"
+  description = "Contact: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;benjamin (at) orthen.net<br/><br/> PGP-Key:	&nbsp;&nbsp;<a href=\"public_pgp_orthen.asc\">4D 1F C2 ED 78 57 DB 13</a>"
   dateformat = "02-Jan-2006"
+
+[params.imagescaling]
+## enabling image scaling for author image
+authorimage200 = "its_me200.jpg"
+authorimage800 = "its_me800.jpg"
 
 ## Site Meta Settings
 [params.meta]
@@ -46,7 +51,7 @@ email = "benjamin@orthen.net"
 
 ## Extras
 [params.extra]
-copyright = "© 2019. Benjamin Orthen. All Rights Reservered."
+copyright = "© 2019. Benjamin Orthen. All Rights Reserved."
 poweredby = true
 hightlightjs = true
 rss = true
