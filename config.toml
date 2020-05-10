@@ -32,7 +32,7 @@ enableRobotsTXT = true
   # description = "Whatever the mind of man can conceive and believe, it can achieve."
   # githubName = "benjaminor"
   intro = ""
-  description = "Contact: benjamin (at) this domain"
+  description = "Contact: benjamin (at) this domain\n\n For PGP-Key, please click on key symbol below."
   dateformat = "02-Jan-2006"
 [params.imagescaling]
 ## enabling image scaling for author image
@@ -46,7 +46,7 @@ keywords = "homepage, personal"
 
 ## Social Accounts
 [params.social]
-pgp = "public_pgp_orthen.asc"
+pgp = "public_pgp_orthen"
 
 ## Extras
 [params.extra]
