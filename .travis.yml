@@ -3,7 +3,7 @@ go:
   - master
 
 install:
-  - go clean -modcache
+  - export GO111MODULE=on
   - go get github.com/gohugoio/hugo    # consume time 70.85s
 
 
