@@ -1,6 +1,6 @@
 baseurl = "https://orthen.net"
 
-copyright = "All rights reserved - 2020"
+copyright = "All rights reserved - 2021"
 languageCode = "en-US"
 author = "Benjamin Orthen"
 title = "Benjamin Orthen | HOME"
@@ -50,7 +50,7 @@ pgp = "public_pgp_orthen"
 
 ## Extras
 [params.extra]
-copyright = "© 2020. Benjamin Orthen. All Rights Reserved."
+copyright = "© 2021. Benjamin Orthen. All Rights Reserved."
 poweredby = true
 hightlightjs = true
 rss = true
