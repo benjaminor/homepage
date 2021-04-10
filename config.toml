@@ -70,6 +70,11 @@ rss = true
 	url = "https://nextcloud.orthen.net"
 	weight= 3
 
+[[menu.main]]
+	name = "Matrix"
+	url = "https://matrix.orthen.net"
+	weight= 4
+
 [sitemap]
   ChangeFreq = ""
   Filename = "sitemap.xml"
