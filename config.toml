@@ -27,17 +27,13 @@ enableRobotsTXT = true
 
 [params]
   author = "Benjamin Orthen"
-  # authorlocation = "Munich, Germany"
-  authorimage = "its_me.jpg"
+  authorlocation = "Munich, Germany"
+  authorimage = "its_me.avif"
   # description = "Whatever the mind of man can conceive and believe, it can achieve."
   # githubName = "benjaminor"
   intro = ""
-  description = "Contact: benjamin (at) this domain\n\n For PGP-Key, please click on key symbol below."
+  description = "Contact: contact (at) this domain\n\n For PGP-Key, please click on key symbol below."
   dateformat = "02-Jan-2006"
-[params.imagescaling]
-## enabling image scaling for author image
-authorimage200 = "its_me200.jpg"
-authorimage800 = "its_me800.jpg"
 
 ## Site Meta Settings
 [params.meta]
@@ -46,7 +42,7 @@ keywords = "homepage, personal"
 
 ## Social Accounts
 [params.social]
-pgp = "public_pgp_orthen"
+pgp = "4D1FC2ED7857DB13"
 
 ## Extras
 [params.extra]
