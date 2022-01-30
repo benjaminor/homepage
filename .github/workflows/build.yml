@@ -1,12 +1,17 @@
-name: "Build Website"
+name: "Build"
 on:
   pull_request:
   push:
 jobs:
-  build-website:
+  build:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2.4.0
     - uses: cachix/install-nix-action@v15
     - run: nix flake check
     - run: nix run .#hugo
+    - uses: actions/upload-artifact@v2
+      with:
+        name: content
+        path: public/
+      if: github.ref == 'refs/heads/master'
