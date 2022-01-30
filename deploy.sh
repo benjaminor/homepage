@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env bash
 
 HOST=ngcobalt315.manitu.net
 DIR=../../web/homepage # might sometimes be empty!
