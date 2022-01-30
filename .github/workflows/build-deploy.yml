@@ -14,4 +14,15 @@ jobs:
       with:
         name: content
         path: public/
+        retention-days: 7
       if: github.ref == 'refs/heads/master'
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/master'
+    steps:
+      - uses: actions/download-artifact@v2
+        with:
+          name: content
+      - run: ./deploy.sh
