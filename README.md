@@ -1,6 +1,6 @@
 # My homepage.
 
-[![Build Status](https://travis-ci.com/benjaminor/homepage.svg?branch=master)](https://travis-ci.com/benjaminor/homepage)
+![Build Status](https://github.com/benjaminor/homepage/actions/workflows/build-deploy.yml/badge.svg?branch=master)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Introduction
