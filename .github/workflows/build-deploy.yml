@@ -21,8 +21,23 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     if: github.ref == 'refs/heads/master'
+    environment: deploy
     steps:
+      - uses: actions/checkout@v2.4.0
       - uses: actions/download-artifact@v2
         with:
           name: content
+      - name: Create SSH key
+        run: |
+          mkdir -p ~/.ssh/
+          echo "$SSH_PRIVATE_KEY" > ../private.key
+          sudo chmod 600 ../private.key
+          echo "$SSH_KNOWN_HOSTS" > ~/.ssh/known_hosts
+        shell: bash
+        env:
+          SSH_PRIVATE_KEY: ${{secrets.SSH_PRIVATE_KEY}}
+          SSH_KNOWN_HOSTS: ${{secrets.SSH_KNOWN_HOSTS}}
       - run: ./deploy.sh
+        env:
+          WEB_HOSTING_SSH_KEY_LOCATION: ${{ github.workspace }}/../private.key
+          WEB_HOSTING_USER_ID: ${{secrets.WEB_HOSTING_USER_ID}}
