@@ -27,8 +27,7 @@ jobs:
       - uses: actions/download-artifact@v2
         with:
           name: public
-      - run: ls -al ${{ github.workspace}}
-      - run: ls -al ${{ github.workspace}}/public
+          path: ${{ github.workspace }}/public
       - name: Create SSH key
         run: |
           mkdir -p ~/.ssh/
