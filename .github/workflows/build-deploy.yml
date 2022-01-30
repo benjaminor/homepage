@@ -37,7 +37,7 @@ jobs:
         env:
           SSH_PRIVATE_KEY: ${{secrets.SSH_PRIVATE_KEY}}
           SSH_KNOWN_HOSTS: ${{secrets.SSH_KNOWN_HOSTS}}
-      - run: bash ./deploy.sh
+      - run: ./deploy.sh
         env:
           WEB_HOSTING_SSH_KEY_LOCATION: ${{ github.workspace }}/../private.key
           WEB_HOSTING_USER_ID: ${{secrets.WEB_HOSTING_USER_ID}}
